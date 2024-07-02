@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -13,9 +14,28 @@
         <a href="C:\Users\User\Documents\GitHub\final-project\news.html" class="fourth">News</a>
     </div>
 
-    <div class="footer">
-    	<h1>Crush your health and <br> fitness goals in no time</h1>
-    	<p>It doesn’t matter if your goal is to get stronger, burn fat, or to just stay fit <br> our world class coaches will guide you every step of the way.</p>
-    </div>
+
+<style>
+
+</style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Forum</h2>
+    <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Enter 10-digit phone number" required>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
 </body>
 </html>

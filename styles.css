@@ -1,13 +1,160 @@
-h1 {
-    text-align: center;
-    margin-right: 1050px;
-    font-family: Verdana, Arial, sans-serif;
-    text-shadow: 10px 4px 4px rgba(15,25,26,0.19);;
+.header h1 {
+    margin: 0; 
+    padding-left: 20px; 
+    font-family: Courier New, monospace ;
+    text-shadow: 11px 1px 4px rgba(0,0,0,0.05);
+    font-weight: bold;
 }
 
+body {
+    background-color: white;
+}
 
 .header {
     display: flex; /* Use flexbox to align items horizontally */
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center items horizontally */
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px; /* Optional: Add padding for spacing from the top and left of the page */
+    box-shadow: inset 0px -10px 20px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #F4F4F4;
+
 }
+
+.header img {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Maintain aspect ratio */
+    margin-top: -15px;
+    margin-left: -20px;
+    margin-right: -10px;
+   
+}
+
+.first {
+    margin-left: 350px; 
+    font-family: Courier New, monospace ;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 11px 1px 4px rgba(0,0,0,0.05);
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.second {
+    margin-left: 50px;
+    font-family: Courier New, monospace ;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 11px 1px 4px rgba(0,0,0,0.05);
+    text-decoration: none;
+    color: #000000;
+}
+
+.third {
+    margin-left: 40px;
+    font-family: Courier New, monospace ;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 11px 1px 4px rgba(0,0,0,0.05);
+    text-decoration: none;
+    color: #000000;
+}
+
+.fourth {
+    margin-left: 40px;
+    font-family: Courier New, monospace ;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 11px 1px 4px rgba(0,0,0,0.05);
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    box-shadow: inset 0px -10px 20px rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    text-shadow: 11px 1px 4px rgba(0,0,0,0.05);
+
+}
+
+.footer p {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-top: -40px;
+    margin-bottom: 200px;
+    text-shadow: 11px 1px 4px rgba(0,0,0,0.05);
+}
+
+.home {
+    margin-left: 350px; 
+    font-family: Courier New, monospace ;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 11px 1px 4px rgba(0,0,0,0.05);
+    text-decoration: none;
+    color: #000000;
+
+}
+
+
+.member {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px; /* Optional: Add padding for spacing from the top and left of the page */
+    box-shadow: inset 0px -10px 20px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #F4F4F4;s
+    margin-bottom: 100px;
+
+}
+
+.member h1 {
+    margin: 0; 
+    padding-left: 20px; 
+    font-family: Courier New, monospace ;
+    text-shadow: 11px 1px 4px rgba(0,0,0,0.05);
+    font-weight: bold;
+}
+
+.member p {
+    margin: 0; 
+    padding-left: 20px; 
+    font-family: Courier New, monospace ;
+    text-shadow: 11px 1px 4px rgba(0,0,0,0.05);
+    font-weight: bold;
+}
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .form-container {
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+    .form-container label, .form-container input[type="text"], .form-container input[type="email"], .form-container input[type="tel"] {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .form-container input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .form-container input[type="submit"]:hover {
+        background-color: #45a049;
+    }
